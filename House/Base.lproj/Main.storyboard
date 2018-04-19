@@ -173,6 +173,30 @@
                                     <constraint firstAttribute="width" constant="375" id="SKm-nt-yxz"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8oi-VP-YoO">
+                                <rect key="frame" x="46" y="574" width="63" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Dungeon"/>
+                                <connections>
+                                    <segue destination="Oj9-Gb-j64" kind="show" id="CZt-nu-tug"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="myP-ub-5m2">
+                                <rect key="frame" x="154" y="574" width="66" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Labratory"/>
+                                <connections>
+                                    <segue destination="4qX-ER-gWj" kind="show" id="9nd-Pg-NBc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ks6-Kt-goC">
+                                <rect key="frame" x="244" y="574" width="112" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Mysterious Lake"/>
+                                <connections>
+                                    <segue destination="HDv-KD-fQP" kind="show" id="cJY-u4-92U"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -189,6 +213,202 @@
             <point key="canvasLocation" x="264.80000000000001" y="1635.832083958021"/>
         </scene>
         <!--House View Controller-->
+        <scene sceneID="ptZ-it-MoU">
+            <objects>
+                <viewController id="Oj9-Gb-j64" customClass="houseViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OoV-ef-779">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dungeon.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fty-QV-L1C">
+                                <rect key="frame" x="0.0" y="128.5" width="375" height="410"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="CjI-3C-pvc"/>
+                                    <constraint firstAttribute="height" constant="410" id="dxJ-0Y-4tw"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fty-QV-L1C" firstAttribute="centerY" secondItem="OoV-ef-779" secondAttribute="centerY" id="BrL-03-DuM"/>
+                            <constraint firstItem="fty-QV-L1C" firstAttribute="leading" secondItem="OoV-ef-779" secondAttribute="leading" id="Njc-55-jXR"/>
+                            <constraint firstAttribute="trailing" secondItem="fty-QV-L1C" secondAttribute="trailing" id="XSM-Ah-g1n"/>
+                            <constraint firstItem="fty-QV-L1C" firstAttribute="centerX" secondItem="OoV-ef-779" secondAttribute="centerX" id="brf-UO-PMj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pGB-DO-KJU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S9C-RE-xXL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-442" y="2410"/>
+        </scene>
+        <!--House View Controller-->
+        <scene sceneID="k0l-Xo-Gw7">
+            <objects>
+                <viewController id="4qX-ER-gWj" customClass="houseViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LEB-jr-mRg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="labratory.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="XWs-r7-DBI">
+                                <rect key="frame" x="0.0" y="128.5" width="375" height="410"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="410" id="lho-Mb-S5M"/>
+                                    <constraint firstAttribute="width" constant="375" id="ush-sL-YPf"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yZY-ZM-AOi">
+                                <rect key="frame" x="153" y="567" width="69" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Generator"/>
+                                <connections>
+                                    <segue destination="RmE-g6-7ay" kind="show" id="9k6-2d-BFS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="XWs-r7-DBI" firstAttribute="leading" secondItem="LEB-jr-mRg" secondAttribute="leading" id="5Oe-PP-adS"/>
+                            <constraint firstItem="XWs-r7-DBI" firstAttribute="centerY" secondItem="LEB-jr-mRg" secondAttribute="centerY" id="5Ol-Xg-qlg"/>
+                            <constraint firstAttribute="trailing" secondItem="XWs-r7-DBI" secondAttribute="trailing" id="XkN-bT-bra"/>
+                            <constraint firstItem="XWs-r7-DBI" firstAttribute="centerX" secondItem="LEB-jr-mRg" secondAttribute="centerX" id="cEh-mY-lLd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hbw-rs-4oy"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pc4-mb-65S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="327" y="2409"/>
+        </scene>
+        <!--House View Controller-->
+        <scene sceneID="XYt-Sb-wKG">
+            <objects>
+                <viewController id="RmE-g6-7ay" customClass="houseViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7vx-66-nNf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="generator.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="QZG-Nu-szw">
+                                <rect key="frame" x="0.0" y="128.5" width="375" height="410"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="410" id="4eg-xO-wAd"/>
+                                    <constraint firstAttribute="width" constant="375" id="9BJ-if-SY1"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="QZG-Nu-szw" firstAttribute="centerY" secondItem="7vx-66-nNf" secondAttribute="centerY" id="bet-Cq-bU2"/>
+                            <constraint firstItem="QZG-Nu-szw" firstAttribute="leading" secondItem="7vx-66-nNf" secondAttribute="leading" id="eMt-8o-DnW"/>
+                            <constraint firstItem="QZG-Nu-szw" firstAttribute="centerX" secondItem="7vx-66-nNf" secondAttribute="centerX" id="i5y-yH-2bE"/>
+                            <constraint firstAttribute="trailing" secondItem="QZG-Nu-szw" secondAttribute="trailing" id="lCY-61-EDM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1iw-WY-Y2F"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="90z-cH-TGF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="324" y="3102"/>
+        </scene>
+        <!--House View Controller-->
+        <scene sceneID="eeL-4c-8pA">
+            <objects>
+                <viewController id="zPe-Ro-JtN" customClass="houseViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="B4m-y9-keY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cursed_chalice.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kRt-e0-dhK">
+                                <rect key="frame" x="0.0" y="128.5" width="375" height="410"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="Rfi-6t-aC6"/>
+                                    <constraint firstAttribute="height" constant="410" id="UcB-FU-9a4"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="kRt-e0-dhK" firstAttribute="centerX" secondItem="B4m-y9-keY" secondAttribute="centerX" id="1hD-qB-2a7"/>
+                            <constraint firstItem="kRt-e0-dhK" firstAttribute="leading" secondItem="B4m-y9-keY" secondAttribute="leading" id="5Xi-bz-e1n"/>
+                            <constraint firstItem="kRt-e0-dhK" firstAttribute="centerY" secondItem="B4m-y9-keY" secondAttribute="centerY" id="Bgj-dE-eaB"/>
+                            <constraint firstAttribute="trailing" secondItem="kRt-e0-dhK" secondAttribute="trailing" id="Z6Y-rS-Omf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="sDH-Am-lbd"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H5e-CU-5R3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1090" y="3107"/>
+        </scene>
+        <!--House View Controller-->
+        <scene sceneID="EHJ-Cc-CkF">
+            <objects>
+                <viewController id="HDv-KD-fQP" customClass="houseViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mCX-Jp-3W5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mysterious_lake.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="yWb-5z-bl7">
+                                <rect key="frame" x="0.0" y="128.5" width="375" height="410"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="6YT-r4-191"/>
+                                    <constraint firstAttribute="height" constant="410" id="KDL-WN-Lpv"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jKC-X3-xQ3">
+                                <rect key="frame" x="136" y="570" width="102" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Cursed chalice"/>
+                                <connections>
+                                    <segue destination="zPe-Ro-JtN" kind="show" id="jtI-pr-PJG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="yWb-5z-bl7" firstAttribute="centerX" secondItem="mCX-Jp-3W5" secondAttribute="centerX" id="HpZ-wQ-Dbl"/>
+                            <constraint firstItem="yWb-5z-bl7" firstAttribute="leading" secondItem="mCX-Jp-3W5" secondAttribute="leading" id="LJS-Tu-fiL"/>
+                            <constraint firstAttribute="trailing" secondItem="yWb-5z-bl7" secondAttribute="trailing" id="btJ-Iw-3Xi"/>
+                            <constraint firstItem="yWb-5z-bl7" firstAttribute="centerY" secondItem="mCX-Jp-3W5" secondAttribute="centerY" id="jB9-92-yVc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="72b-n0-4Sp"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NrD-5c-9Cc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="2409"/>
+        </scene>
+        <!--House View Controller-->
+        <scene sceneID="Z5H-ss-fwf">
+            <objects>
+                <viewController id="zRp-rs-gmL" customClass="houseViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cww-Im-QTb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back_porch.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="bge-hD-jWv">
+                                <rect key="frame" x="0.0" y="128.5" width="375" height="410"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="410" id="0hI-h1-MsX"/>
+                                    <constraint firstAttribute="width" constant="375" id="Ozu-0R-Tdp"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bge-hD-jWv" firstAttribute="centerX" secondItem="Cww-Im-QTb" secondAttribute="centerX" id="Ilu-tt-36H"/>
+                            <constraint firstAttribute="trailing" secondItem="bge-hD-jWv" secondAttribute="trailing" id="LG2-pz-NoN"/>
+                            <constraint firstItem="bge-hD-jWv" firstAttribute="leading" secondItem="Cww-Im-QTb" secondAttribute="leading" id="UH7-G0-0M3"/>
+                            <constraint firstItem="bge-hD-jWv" firstAttribute="centerY" secondItem="Cww-Im-QTb" secondAttribute="centerY" id="u2C-hN-KHc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="m6d-vS-mpm"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bV0-AF-nKN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1826" y="2404"/>
+        </scene>
+        <!--House View Controller-->
         <scene sceneID="hOo-xA-ezy">
             <objects>
                 <viewController id="xXZ-Mz-BG2" customClass="houseViewController" sceneMemberID="viewController">
@@ -203,6 +423,14 @@
                                     <constraint firstAttribute="height" constant="410" id="r34-mY-ypX"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pu2-hK-mgC">
+                                <rect key="frame" x="148" y="571" width="78" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back porch"/>
+                                <connections>
+                                    <segue destination="zRp-rs-gmL" kind="show" id="ch6-gf-qPj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -364,13 +592,19 @@
         </scene>
     </scenes>
     <resources>
+        <image name="back_porch.jpg" width="1024" height="1024"/>
         <image name="bathroom.jpg" width="1024" height="1024"/>
         <image name="bedroom.jpg" width="1024" height="1024"/>
         <image name="coat_room.jpg" width="1024" height="1024"/>
+        <image name="cursed_chalice.jpg" width="1024" height="1024"/>
         <image name="dining_room.jpg" width="1024" height="1024"/>
+        <image name="dungeon.jpg" width="1024" height="1024"/>
         <image name="front_door.jpg" width="1024" height="1024"/>
+        <image name="generator.jpg" width="1024" height="1024"/>
         <image name="kitchen.jpg" width="1024" height="1001"/>
+        <image name="labratory.jpg" width="1024" height="1024"/>
         <image name="library.jpg" width="1024" height="1001"/>
+        <image name="mysterious_lake.jpg" width="1024" height="1024"/>
         <image name="secret_passage.jpg" width="1024" height="1001"/>
         <image name="stairs_up.jpg" width="1024" height="1001"/>
     </resources>
