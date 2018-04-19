@@ -30,6 +30,7 @@
 		7A1918682088100700090DC8 /* front_door.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A1918592088100700090DC8 /* front_door.jpg */; };
 		7A1918692088100700090DC8 /* stairs_up.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A19185A2088100700090DC8 /* stairs_up.jpg */; };
 		7A19186A2088100700090DC8 /* labratory.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A19185B2088100700090DC8 /* labratory.jpg */; };
+		7A19186D2088151400090DC8 /* houseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A19186C2088151400090DC8 /* houseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,8 @@
 		7A1918592088100700090DC8 /* front_door.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = front_door.jpg; path = "../../../../../Downloads/iOS-navigationgame-assets-master/images/front_door.jpg"; sourceTree = "<group>"; };
 		7A19185A2088100700090DC8 /* stairs_up.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = stairs_up.jpg; path = "../../../../../Downloads/iOS-navigationgame-assets-master/images/stairs_up.jpg"; sourceTree = "<group>"; };
 		7A19185B2088100700090DC8 /* labratory.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = labratory.jpg; path = "../../../../../Downloads/iOS-navigationgame-assets-master/images/labratory.jpg"; sourceTree = "<group>"; };
+		7A19186B2088151400090DC8 /* houseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = houseViewController.h; sourceTree = "<group>"; };
+		7A19186C2088151400090DC8 /* houseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = houseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +144,8 @@
 				7A19181220880A2900090DC8 /* LaunchScreen.storyboard */,
 				7A19181520880A2900090DC8 /* Info.plist */,
 				7A19181620880A2900090DC8 /* main.m */,
+				7A19186B2088151400090DC8 /* houseViewController.h */,
+				7A19186C2088151400090DC8 /* houseViewController.m */,
 			);
 			path = House;
 			sourceTree = "<group>";
@@ -333,6 +338,7 @@
 				7A19180C20880A2700090DC8 /* ViewController.m in Sources */,
 				7A19181720880A2900090DC8 /* main.m in Sources */,
 				7A19180920880A2700090DC8 /* AppDelegate.m in Sources */,
+				7A19186D2088151400090DC8 /* houseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
